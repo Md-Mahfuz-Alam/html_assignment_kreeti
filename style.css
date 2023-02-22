@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:#4191b4 ;
+}
+a{
+   text-decoration: none;
+}
+header{
+    background-color: #035578;
+    padding: .3rem;
+    border-radius: 1rem;
+    color: rgb(246, 241, 241);
+}
+.intro{
+    position: relative;
+}
+.intro p{
+    color: rgb(246, 241, 241); 
+    font-size: x-large;
+    background-color: rgba(0, 0, 0, 0.263);
+    padding: .5rem;
+    border-radius: 1rem;
+}
+.intro img{
+    border-radius: 3rem ;
+    position: relative;
+    left: 10rem;
+}
+.intro a{
+    font-size:2rem ;
+    background-color: #035578;
+    padding: .3rem;
+    border-radius: 1rem;
+    color: aliceblue;
+    margin-top: 9rem ;
+    border: 2px solid #035578;
+
+}
+a:hover{
+    background-color: transparent;
+    color: #035578;
+   transition: .4s ease-in-out;
+    
+}
+.custom-list{
+    position: absolute;
+    top: 12rem;
+    left: 40rem;
+    color: rgb(224, 152, 45);
+    background-color: #035578;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+.custom-list li{
+    font-size: 1.5rem;
+}
+.table-section{
+    background-color: #035578;
+    font-size: large;
+    color: rgb(210, 216, 222);
+    padding: 1rem;
+    
+}
+.form-section{
+    font-size: x-large;
+    background-color: #035578;
+    height: 70vh;
+    position: relative;
+    
+   
+
+}
+
+.form-section input{
+    padding: .5rem;
+    border-radius: .5rem;
+
+}
+label[for="address"]{
+    position: relative;
+    bottom: 4rem;
+}
+label{
+    margin: 1rem;
+}
+textarea{
+    position: relative;
+    left: 1.6rem;
+    border-radius: .5rem;
+}
+input[type=number]{
+    position: relative;
+    left: 4rem;
+}
+input[type=email]{
+    position: relative;
+    left: 3rem;
+}
+button{
+    font-size: larger;
+    border-radius: .5rem;
+    border: 2px solid green;
+    background-color: green;
+    color: aliceblue;
+    cursor: pointer;
+    position: relative
+    ;
+    left: 5rem;
+    top: 3rem;
+
+}
+button:hover{
+    background-color: transparent;
+    color:green;
+    transition: .4s ease-in-out;
+}
