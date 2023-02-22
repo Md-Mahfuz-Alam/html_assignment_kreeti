@@ -65,7 +65,7 @@ a:hover{
 }
 .form-section{
     font-size: x-large;
-    background-color: #035578;
+   
     height: 70vh;
     position: relative;
     
@@ -73,9 +73,10 @@ a:hover{
 
 }
 form{
-    border: 1rem solid rgb(6, 42, 63);
+    border: 1rem solid rgb(3, 44, 67);
     padding: 1rem;
     border-radius: .5rem;
+    background-color: #035578;
 }
 .form-section input{
     padding: .5rem;
